@@ -1,0 +1,37 @@
+#client{
+    padding: 80px 7%;
+    padding-bottom: 0;
+}
+
+#client h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#client p{
+    max-width: 600px;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #ccc;
+    text-wrap: balance;
+    margin: 0 auto;
+}
+
+.detail{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-block: 20px;
+}
+
+.gallery img{
+    width: 80px;
+    cursor: pointer;
+}

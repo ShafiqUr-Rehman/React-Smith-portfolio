@@ -1,0 +1,49 @@
+#portfolio{
+    padding: 80px 7%;
+}
+
+#portfolio h2{
+    font-size: 3rem;
+    text-align: center;
+}
+
+#portfolio p{
+    max-width: 600px;
+    width: 100%;
+    font-size: 0.8rem;
+    color: #ccc;
+    text-wrap: balance;
+    margin: 0 auto;
+}
+
+.detail{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.potfolio-gallery{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.potfolio-gallery img{
+    width: 300px;
+    height: 20rem;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+#portfolio .btn{
+    width: 150px;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 50px;
+}

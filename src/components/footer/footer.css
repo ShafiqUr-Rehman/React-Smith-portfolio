@@ -1,0 +1,7 @@
+.footer p{
+    width: 100%;
+    text-align: center;
+    background: rgb(40, 40, 40);
+    padding: 1rem;
+    font-size: 0.9rem;
+}
